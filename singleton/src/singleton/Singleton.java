@@ -86,6 +86,10 @@ package singleton;
 //	}
 //}
 
+/*
+ * LazyHolder 방식, volatile 이나 synchronized 키워드 없이도 동시성 문제를 해결할 수 있다.
+ */
+
 public class Singleton{
 	private Singleton() {
 		
